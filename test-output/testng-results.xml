@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[The value in cart is same as product details: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: × 1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: × 1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: × 1]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: × 1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Total]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Total]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Total]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: Total]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[The value in cart is same as product details: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the attribute value: list with-promo]]>
+    </line>
+    <line>
+      <![CDATA[checkbox is already selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[checkbox is not selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 19,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Thank you for your purchase.]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[The value in cart is same as product details: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: × 1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: × 1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: × 1]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: × 1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: ]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: ]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Total]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Total]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Total]]>
+    </line>
+    <line>
+      <![CDATA[The value for this cell is: Total]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[The value in cart is same as product details: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the attribute value: list with-promo]]>
+    </line>
+    <line>
+      <![CDATA[checkbox is already selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 20,000]]>
+    </line>
+    <line>
+      <![CDATA[checkbox is not selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: 19,000]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly fetched the text: Your card got declined by the bank]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-04T04:16:16Z" name="MIdTrans_Automation_TestSuite" finished-at="2020-03-04T04:17:23Z" duration-ms="67082">
+    <groups>
+    </groups>
+    <test started-at="2020-03-04T04:16:16Z" name="MidTrans_Test" finished-at="2020-03-04T04:17:23Z" duration-ms="67082">
+      <class name="com.midtrans.qa.testcases.MIdTrans_Home_Test">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:16Z" name="setupReport" finished-at="2020-03-04T04:16:16Z" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:16Z" name="setUp" finished-at="2020-03-04T04:16:29Z" duration-ms="12791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_SuccessFul_Order()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:29Z" name="validate_SuccessFul_Order" finished-at="2020-03-04T04:16:52Z" duration-ms="23052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[The value in cart is same as product details: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: × 1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: × 1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: × 1]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: × 1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Total]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Total]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Total]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: Total]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[The value in cart is same as product details: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the attribute value: list with-promo]]>
+            </line>
+            <line>
+              <![CDATA[checkbox is already selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[checkbox is not selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 19,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Thank you for your purchase.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_SuccessFul_Order -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:52Z" name="tearDown" finished-at="2020-03-04T04:16:53Z" duration-ms="1515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_SuccessFul_Order status=SUCCESS method=MIdTrans_Home_Test.validate_SuccessFul_Order()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c] output=Successfuly fetched the text: Midtrans Pillow]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:53Z" name="setUp" finished-at="2020-03-04T04:17:06Z" duration-ms="12376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Validate_UnSuccessful_Order()[pri:1, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:17:06Z" name="Validate_UnSuccessful_Order" finished-at="2020-03-04T04:17:22Z" duration-ms="16124" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[The value in cart is same as product details: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: × 1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: × 1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: × 1]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: × 1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: ]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: ]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Total]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Total]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Total]]>
+            </line>
+            <line>
+              <![CDATA[The value for this cell is: Total]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[The value in cart is same as product details: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the attribute value: list with-promo]]>
+            </line>
+            <line>
+              <![CDATA[checkbox is already selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 20,000]]>
+            </line>
+            <line>
+              <![CDATA[checkbox is not selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: - Rp 1,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: 19,000]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly fetched the text: Your card got declined by the bank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_UnSuccessful_Order -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:17:22Z" name="tearDown" finished-at="2020-03-04T04:17:23Z" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_UnSuccessful_Order status=SUCCESS method=MIdTrans_Home_Test.Validate_UnSuccessful_Order()[pri:1, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c] output=Successfuly fetched the text: Midtrans Pillow]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.midtrans.qa.testcases.MIdTrans_Home_Test -->
+    </test> <!-- MidTrans_Test -->
+  </suite> <!-- MIdTrans_Automation_TestSuite -->
+</testng-results>

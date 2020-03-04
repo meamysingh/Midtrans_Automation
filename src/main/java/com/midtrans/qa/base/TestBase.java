@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -38,6 +39,8 @@ public class TestBase {
 	public ExtentReports reporter;
 	public static ExtentTest logger;
 	
+	
+	
 	public TestBase(){
 		try {
 			prop = new Properties();
@@ -51,6 +54,15 @@ public class TestBase {
 		}
 	}
 	
+	
+	/**========================================================================================================================
+     * @Name: setupExtentReport
+     * @description: setting up the extent report file
+     * @param NA 
+     * @paramType NA
+     * @return - Void
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public void setupExtentReport()
 	{
 		File file = new File(System.getProperty("user.dir")+"/Execution-Summary-Report.html");
@@ -63,20 +75,32 @@ public class TestBase {
 		System.out.println("report setup has been done");
 	}
 
+	/**========================================================================================================================
+     * @Name: initialization
+     * @description: setting up the extent report file
+     * @param NA 
+     * @paramType NA
+     * @return - Void
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public static void initialization(){
 		try {
 			
 			String browserName = prop.getProperty("browser");
-			if(browserName.equals("chrome")){
+			
+			if(browserName.equalsIgnoreCase("chrome")){
 				
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver(); 
 			}
-			else if(browserName.equals("FF")){
-				System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
+			else if(browserName.equalsIgnoreCase("FF")){
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver(); 
 			}
-			
+			else if(browserName.equalsIgnoreCase("FF")) {
+				WebDriverManager.iedriver().setup();
+				driver = new InternetExplorerDriver();
+			}
 			
 			e_driver = new EventFiringWebDriver(driver);
 			// Now create object of EventListerHandler to register it with EventFiringWebDriver
@@ -92,12 +116,22 @@ public class TestBase {
 			driver.get(prop.getProperty("url"));
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.getStackTrace();
 		}
 		
 		
 	}
 	
+	/**========================================================================================================================
+     * @Name: waitForIsDisplayed
+     * @description: waits for element to be displayed on UI
+     * @param element- webelement to check on UI 
+     * @paramType WebElement
+     * @param timeout- time for waiting
+     * @paramType long
+     * @return - boolean
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public boolean waitForIsDisplayed(WebElement element,long timeout)
 	{
 		try {
@@ -109,6 +143,15 @@ public class TestBase {
 		}
 	}
 	
+	
+	/**========================================================================================================================
+     * @Name: textOf
+     * @description: gets the text of a specified element
+     * @param element- webElement to perform action on UI
+     * @paramType WebElement
+     * @return - String
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public String textOf(WebElement element)
 	{
 		String text = null;
@@ -130,6 +173,16 @@ public class TestBase {
 		   return Integer.parseInt(numberOnly);
 	}
 	
+	/**========================================================================================================================
+     * @Name: actionOnCheckbox
+     * @description: performes check/uncheck on checkbox as per the input given
+     * @param element- checkbox element on ui
+     * @paramType WebElement
+     * @param actionType- check/uncheck
+     * @paramType STring
+     * @return - void
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public void actionOnCheckbox(WebElement element,String actionType)
 	{
 		hoverOver(element);
@@ -164,7 +217,16 @@ public class TestBase {
 	}
 	
 	
-	
+	/**========================================================================================================================
+     * @Name: attributeOf
+     * @description: gets the attribute value of an element on ui
+     * @param attributeName- attribute name to find value
+     * @paramType String
+     * @param element- WebElement
+     * @paramType WebElement
+     * @return - String
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public String attributeOf(String attributeName, WebElement element)
 	{
 		String attributeVal = null;
@@ -180,11 +242,31 @@ public class TestBase {
 		return attributeVal;
 	}
 	
+
+	/**========================================================================================================================
+     * @Name: getElementByText
+     * @description: finds the element by text and tagname specified
+     * @param tagName- tahName to build xpath
+     * @paramType String
+     * @param text- visible text to build xpath
+     * @paramType String
+     * @return - WebElement
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public WebElement getElementByText(String tagName,String text)
 	{
 		return driver.findElement(By.xpath("//"+tagName+"[text()='"+text+"']"));
 	}
 	
+	
+	/**========================================================================================================================
+     * @Name: clickOnElement
+     * @description: clicks on specified webelement using click method of selenium
+     * @param element- element on which action will be performed
+     * @paramType WebElement
+     * @return - boolean
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public boolean clickOnElement(WebElement element)
 	{
 				try {
@@ -206,6 +288,15 @@ public class TestBase {
 				}
 	}
 	
+	
+	/**========================================================================================================================
+     * @Name: hoverOver
+     * @description: moves the cursor over element specified
+     * @param ele- element on which action will be performed
+     * @paramType WebElement
+     * @return - void
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public void hoverOver(WebElement ele)
 	{
 		try {
@@ -218,7 +309,16 @@ public class TestBase {
 		}
 	}
 	
-	
+	/**========================================================================================================================
+     * @Name: waitForIsClickable
+     * @description: waits for element to be enabled on ui
+     * @param element- webelement to check on UI 
+     * @paramType WebElement
+     * @param timeout- time for waiting
+     * @paramType long
+     * @return - voids
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public void waitForIsClickable(WebElement ele,long timeout)
 	{
 			WebDriverWait wait = new WebDriverWait(driver, timeout);
@@ -226,6 +326,16 @@ public class TestBase {
 	}
 	
 	
+	/**========================================================================================================================
+     * @Name: type
+     * @description: enters value on UI using sendKeys method of selenium
+     * @param valueToBeENtered- String to be entered
+     * @paramType String
+     * @param element- element on which action will be performed
+     * @paramType WebElement
+     * @return - void
+     * @author Amit Singh
+     *========================================================================================================================*/
 	public void type(String valueToBeENtered,WebElement element)
 	{
 		try {

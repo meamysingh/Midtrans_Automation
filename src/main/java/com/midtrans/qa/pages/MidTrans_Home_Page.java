@@ -201,7 +201,7 @@ public class MidTrans_Home_Page extends TestBase {
 			int promoVal = 0;
 			int totalAmount= 0;
 			boolean status = false;
-			int i =0;
+			
 			actionOnCheckbox(promoCheckbox,"Uncheck");
 			waitForIsDisplayed(ammountAtPayment, 10);
 			promoVal = getOnlyDigints(textOf(promoAmmountFld));

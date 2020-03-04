@@ -212,20 +212,20 @@
       <![CDATA[Successfuly fetched the text: Your card got declined by the bank]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-03-04T04:16:16Z" name="MIdTrans_Automation_TestSuite" finished-at="2020-03-04T04:17:23Z" duration-ms="67082">
+  <suite started-at="2020-03-04T05:51:36Z" name="MIdTrans_Automation_TestSuite" finished-at="2020-03-04T05:52:40Z" duration-ms="63067">
     <groups>
     </groups>
-    <test started-at="2020-03-04T04:16:16Z" name="MidTrans_Test" finished-at="2020-03-04T04:17:23Z" duration-ms="67082">
+    <test started-at="2020-03-04T05:51:36Z" name="MidTrans_Test" finished-at="2020-03-04T05:52:40Z" duration-ms="63067">
       <class name="com.midtrans.qa.testcases.MIdTrans_Home_Test">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:16Z" name="setupReport" finished-at="2020-03-04T04:16:16Z" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:51:36Z" name="setupReport" finished-at="2020-03-04T05:51:37Z" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:16Z" name="setUp" finished-at="2020-03-04T04:16:29Z" duration-ms="12791" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:51:37Z" name="setUp" finished-at="2020-03-04T05:51:50Z" duration-ms="13267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validate_SuccessFul_Order()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:29Z" name="validate_SuccessFul_Order" finished-at="2020-03-04T04:16:52Z" duration-ms="23052" status="PASS">
+        <test-method signature="validate_SuccessFul_Order()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:51:50Z" name="validate_SuccessFul_Order" finished-at="2020-03-04T05:52:11Z" duration-ms="21359" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
@@ -334,7 +334,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validate_SuccessFul_Order -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:52Z" name="tearDown" finished-at="2020-03-04T04:16:53Z" duration-ms="1515" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:52:11Z" name="tearDown" finished-at="2020-03-04T05:52:13Z" duration-ms="1367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,11 +345,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:16:53Z" name="setUp" finished-at="2020-03-04T04:17:06Z" duration-ms="12376" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:52:13Z" name="setUp" finished-at="2020-03-04T05:52:24Z" duration-ms="11387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Validate_UnSuccessful_Order()[pri:1, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:17:06Z" name="Validate_UnSuccessful_Order" finished-at="2020-03-04T04:17:22Z" duration-ms="16124" status="PASS">
+        <test-method signature="Validate_UnSuccessful_Order()[pri:1, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:52:24Z" name="Validate_UnSuccessful_Order" finished-at="2020-03-04T05:52:39Z" duration-ms="14366" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfuly fetched the text: Midtrans Pillow]]>
@@ -458,7 +458,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Validate_UnSuccessful_Order -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T04:17:22Z" name="tearDown" finished-at="2020-03-04T04:17:23Z" duration-ms="918" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.midtrans.qa.testcases.MIdTrans_Home_Test@5ab9e72c]" started-at="2020-03-04T05:52:39Z" name="tearDown" finished-at="2020-03-04T05:52:40Z" duration-ms="886" status="PASS">
           <params>
             <param index="0">
               <value>

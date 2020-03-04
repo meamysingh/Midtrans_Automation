@@ -18,7 +18,12 @@
   #> Maven
   
 # Usage
- To run all the test, Navigate to MIdTrans_AutoFW directory and run below command
+ To run all the test:-
+ 1)cline the project by runnit below command in git bash
+    ```bash
+git clone https://github.com/meamysingh/Midtrans_Automation.git
+```
+ 2)Navigate to MIdTrans_AutoFW directory and run below command
  
  ```bash
 mvn test
